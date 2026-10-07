@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cally – Datenschutzerklärung</title>
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <h1>Datenschutzerklärung</h1>
+  </header>
+  <p class="muted">Stand: 7. Oktober 2026</p>
+
+  <h2>1. Worum es geht</h2>
+  <p>Cally ist ein privates Desktop-Widget für Windows. Diese Erklärung beschreibt, welche Daten Cally
+    verarbeitet, wenn es mit einem Google-Konto verbunden wird.</p>
+
+  <h2>2. Verantwortlich</h2>
+  <p>Verantwortlich ist der Betreiber dieses privaten Projekts. Kontakt:
+    <a href="https://github.com/bricanyl-ai">github.com/bricanyl-ai</a>.</p>
+
+  <h2>3. Zugriff auf Google-Daten</h2>
+  <p>Nur nach ausdrücklicher Zustimmung im Google-Anmeldefenster greift Cally auf folgende Daten zu:</p>
+  <ul>
+    <li><strong>Google Tasks</strong> (<code>https://www.googleapis.com/auth/tasks</code>):
+      Aufgaben lesen, anlegen, ändern, als erledigt markieren und löschen, um sie im Widget anzuzeigen
+      und mit dem Smartphone abzugleichen.</li>
+    <li><strong>Von Cally erstellte Kalender</strong> (<code>https://www.googleapis.com/auth/calendar.app.created</code>):
+      Cally legt einen eigenen Kalender „Cally Erinnerungen“ an und verwaltet darin Erinnerungstermine
+      für Aufgaben mit Uhrzeit. Auf andere Kalender hat Cally keinen Zugriff.</li>
+  </ul>
+  <p>Cally greift nicht auf E-Mails, Kontakte, andere Kalender, Google Notizen selbst oder sonstige Daten zu.</p>
+
+  <h2>4. Wo die Daten verarbeitet werden</h2>
+  <ul>
+    <li>Die Verarbeitung findet ausschließlich <strong>lokal auf dem PC</strong> statt, auf dem Cally läuft.</li>
+    <li>Cally betreibt <strong>keine eigenen Server</strong>. Daten werden nur direkt zwischen dem PC und Google ausgetauscht.</li>
+    <li>Eine Weitergabe an Dritte, Analyse, Tracking oder Werbung findet <strong>nicht</strong> statt.</li>
+    <li>Aufgaben werden als lokale Datei zwischengespeichert. Die Google-Zugangsdaten (Tokens) werden
+      mit der Windows-Datenschutz-API (DPAPI) verschlüsselt gespeichert.</li>
+  </ul>
+
+  <h2>5. Google API Services User Data Policy</h2>
+  <p>Die Nutzung und Weitergabe von Informationen, die Cally von Google-APIs erhält, entspricht der
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+    einschließlich der Anforderungen zur eingeschränkten Nutzung (Limited Use).</p>
+  <p class="muted" lang="en">Cally's use and transfer of information received from Google APIs to any other app will
+    adhere to the Google API Services User Data Policy, including the Limited Use requirements.</p>
+
+  <h2>6. Widerruf und Löschung</h2>
+  <ul>
+    <li>Der Zugriff kann jederzeit in Cally („Google-Verbindung trennen“) oder unter
+      <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> widerrufen werden.</li>
+    <li>Lokale Daten werden gelöscht, indem der Cally-Datenordner gelöscht wird
+      (<code>%APPDATA%\Cally</code> bzw. <code>Cally-Daten</code> neben der portablen Version).</li>
+    <li>Der Kalender „Cally Erinnerungen“ kann im Google Kalender gelöscht werden.</li>
+  </ul>
+
+  <nav>
+    <a href="index.html">Startseite</a>
+    <a href="nutzungsbedingungen.html">Nutzungsbedingungen</a>
+  </nav>
+</main>
+</body>
+</html>
